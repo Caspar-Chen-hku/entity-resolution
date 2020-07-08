@@ -1,0 +1,28 @@
+2019-04-09 08:00:27,437 - ambiguous - [INFO] - Running ambiguous
+2019-04-09 08:00:27,437 - ambiguous - [INFO] - Parameters:
+2019-04-09 08:00:27,437 - ambiguous - [INFO] - 	 dataset: ambiguous
+2019-04-09 08:00:27,437 - ambiguous - [INFO] - 	 level 1 threshold: 0.4239
+2019-04-09 08:00:27,438 - ambiguous - [INFO] - 	 level 2 threshold: 0.16
+2019-04-09 08:00:27,438 - ambiguous - [INFO] - Reading dataset ambiguous
+2019-04-09 08:00:41,812 - ambiguous - [INFO] - 	 Number of triples: 29748
+2019-04-09 08:00:41,836 - ambiguous - [INFO] - 	 Printing ground truth
+2019-04-09 08:00:41,867 - ambiguous - [INFO] - Cleaning data
+2019-04-09 08:00:41,875 - ambiguous - [INFO] - Embedding triples
+2019-04-09 08:00:41,875 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-09 08:00:41,876 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-09 08:01:54,559 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-09 08:02:10,670 - ambiguous - [INFO] - Clustering triples
+2019-04-09 08:02:10,790 - ambiguous - [INFO] - Evaluating
+2019-04-09 08:02:12,887 - ambiguous - [INFO] - Macro Precision: 0.6651, Macro Recall: 0.5653, Macro F1: 0.6112
+
+2019-04-09 08:02:12,888 - ambiguous - [INFO] - Micro Precision: 0.8961, Micro Recall: 0.9124, Micro F1: 0.9042
+
+2019-04-09 08:02:12,888 - ambiguous - [INFO] - Pair Precision: 0.9376, Pair Recall: 0.9379, Pair F1: 0.9378
+
+2019-04-09 08:02:12,888 - ambiguous - [INFO] - CESI: #Clusters: 418, #Singletons 57
+
+2019-04-09 08:02:12,888 - ambiguous - [INFO] - Gold: #Clusters: 421, #Singletons 41
+
+2019-04-09 08:02:12,919 - ambiguous - [INFO] - End
+
+

@@ -1,0 +1,29 @@
+2019-04-10 07:53:44,923 - reverb_intersect3_glove - [INFO] - Running reverb_intersect3_glove
+2019-04-10 07:53:44,923 - reverb_intersect3_glove - [INFO] - Parameters:
+2019-04-10 07:53:44,923 - reverb_intersect3_glove - [INFO] - 	 dataset: reverb45k_intersect
+2019-04-10 07:53:44,923 - reverb_intersect3_glove - [INFO] - 	 level 1 threshold: 0.6239
+2019-04-10 07:53:44,924 - reverb_intersect3_glove - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-10 07:53:44,924 - reverb_intersect3_glove - [INFO] - Reading dataset reverb45k_intersect
+2019-04-10 07:53:44,924 - reverb_intersect3_glove - [INFO] - 	 Read from raw reverb45k file
+2019-04-10 07:54:16,545 - reverb_intersect3_glove - [INFO] - 	 Number of triples: 35797
+2019-04-10 07:54:16,648 - reverb_intersect3_glove - [INFO] - 	 Printing ground truth
+2019-04-10 07:54:16,721 - reverb_intersect3_glove - [INFO] - Cleaning data
+2019-04-10 07:54:17,049 - reverb_intersect3_glove - [INFO] - Embedding triples
+2019-04-10 07:54:17,049 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-10 07:54:17,050 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-10 07:55:49,671 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-10 07:56:31,241 - reverb_intersect3_glove - [INFO] - Clustering triples
+2019-04-10 07:56:53,597 - reverb_intersect3_glove - [INFO] - Evaluating
+2019-04-10 07:56:54,140 - reverb_intersect3_glove - [INFO] - Macro Precision: 0.4939, Macro Recall: 0.9111, Macro F1: 0.6405
+
+2019-04-10 07:56:54,140 - reverb_intersect3_glove - [INFO] - Micro Precision: 0.6811, Micro Recall: 0.955, Micro F1: 0.7951
+
+2019-04-10 07:56:54,140 - reverb_intersect3_glove - [INFO] - Pair Precision: 0.5808, Pair Recall: 0.9512, Pair F1: 0.7212
+
+2019-04-10 07:56:54,141 - reverb_intersect3_glove - [INFO] - CESI: #Clusters: 3748, #Singletons 827
+
+2019-04-10 07:56:54,142 - reverb_intersect3_glove - [INFO] - Gold: #Clusters: 7690, #Singletons 3808
+
+2019-04-10 07:56:54,218 - reverb_intersect3_glove - [INFO] - End
+
+

@@ -1,0 +1,29 @@
+2019-04-09 08:14:17,773 - reverb_freebase_glove - [INFO] - Running reverb_freebase_glove
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - Parameters:
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - 	 dataset: reverb45k
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - 	 level 1 threshold: 0.4239
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - 	 level 2 threshold: 0.16
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - Reading dataset reverb45k
+2019-04-09 08:14:17,774 - reverb_freebase_glove - [INFO] - 	 Read from raw reverb45k file
+2019-04-09 08:14:39,394 - reverb_freebase_glove - [INFO] - 	 Number of triples: 35797
+2019-04-09 08:14:39,495 - reverb_freebase_glove - [INFO] - 	 Printing ground truth
+2019-04-09 08:14:39,563 - reverb_freebase_glove - [INFO] - Cleaning data
+2019-04-09 08:14:39,817 - reverb_freebase_glove - [INFO] - Embedding triples
+2019-04-09 08:14:39,817 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-09 08:14:39,818 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-09 08:15:52,835 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-09 08:16:28,206 - reverb_freebase_glove - [INFO] - Clustering triples
+2019-04-09 08:16:47,745 - reverb_freebase_glove - [INFO] - Evaluating
+2019-04-09 08:16:48,308 - reverb_freebase_glove - [INFO] - Macro Precision: 0.7432, Macro Recall: 0.5069, Macro F1: 0.6027
+
+2019-04-09 08:16:48,308 - reverb_freebase_glove - [INFO] - Micro Precision: 0.8081, Micro Recall: 0.8483, Micro F1: 0.8277
+
+2019-04-09 08:16:48,308 - reverb_freebase_glove - [INFO] - Pair Precision: 0.7305, Pair Recall: 0.8651, Pair F1: 0.7922
+
+2019-04-09 08:16:48,309 - reverb_freebase_glove - [INFO] - CESI: #Clusters: 5872, #Singletons 1482
+
+2019-04-09 08:16:48,310 - reverb_freebase_glove - [INFO] - Gold: #Clusters: 6039, #Singletons 187
+
+2019-04-09 08:16:48,397 - reverb_freebase_glove - [INFO] - End
+
+

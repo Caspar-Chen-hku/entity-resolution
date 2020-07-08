@@ -1,0 +1,29 @@
+2019-04-09 10:50:47,167 - reverb_union2_glove - [INFO] - Running reverb_union2_glove
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - Parameters:
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - 	 dataset: reverb45k_union2
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - 	 level 1 threshold: 0.4239
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - Reading dataset reverb45k_union2
+2019-04-09 10:50:47,168 - reverb_union2_glove - [INFO] - 	 Read from raw reverb45k file
+2019-04-09 10:51:05,780 - reverb_union2_glove - [INFO] - 	 Number of triples: 27496
+2019-04-09 10:51:05,869 - reverb_union2_glove - [INFO] - 	 Printing ground truth
+2019-04-09 10:51:05,969 - reverb_union2_glove - [INFO] - Cleaning data
+2019-04-09 10:51:06,079 - reverb_union2_glove - [INFO] - Embedding triples
+2019-04-09 10:51:06,079 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-09 10:51:06,080 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-09 10:52:28,802 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-09 10:53:05,933 - reverb_union2_glove - [INFO] - Clustering triples
+2019-04-09 10:53:19,922 - reverb_union2_glove - [INFO] - Evaluating
+2019-04-09 10:53:21,066 - reverb_union2_glove - [INFO] - Macro Precision: 0.8149, Macro Recall: 0.733, Macro F1: 0.7718
+
+2019-04-09 10:53:21,067 - reverb_union2_glove - [INFO] - Micro Precision: 0.8889, Micro Recall: 0.7493, Micro F1: 0.8131
+
+2019-04-09 10:53:21,069 - reverb_union2_glove - [INFO] - Pair Precision: 0.9091, Pair Recall: 0.1048, Pair F1: 0.1879
+
+2019-04-09 10:53:21,071 - reverb_union2_glove - [INFO] - CESI: #Clusters: 4640, #Singletons 1245
+
+2019-04-09 10:53:21,072 - reverb_union2_glove - [INFO] - Gold: #Clusters: 4491, #Singletons 1004
+
+2019-04-09 10:53:21,169 - reverb_union2_glove - [INFO] - End
+
+

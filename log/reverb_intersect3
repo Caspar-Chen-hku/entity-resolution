@@ -1,0 +1,29 @@
+2019-04-10 07:58:44,409 - reverb_intersect3 - [INFO] - Running reverb_intersect3
+2019-04-10 07:58:44,409 - reverb_intersect3 - [INFO] - Parameters:
+2019-04-10 07:58:44,410 - reverb_intersect3 - [INFO] - 	 dataset: reverb45k_intersect
+2019-04-10 07:58:44,410 - reverb_intersect3 - [INFO] - 	 level 1 threshold: 0.6239
+2019-04-10 07:58:44,410 - reverb_intersect3 - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-10 07:58:44,410 - reverb_intersect3 - [INFO] - Reading dataset reverb45k_intersect
+2019-04-10 07:58:44,410 - reverb_intersect3 - [INFO] - 	 Read from raw reverb45k file
+2019-04-10 07:59:19,325 - reverb_intersect3 - [INFO] - 	 Number of triples: 35797
+2019-04-10 07:59:19,478 - reverb_intersect3 - [INFO] - 	 Printing ground truth
+2019-04-10 07:59:19,571 - reverb_intersect3 - [INFO] - Cleaning data
+2019-04-10 07:59:20,042 - reverb_intersect3 - [INFO] - Embedding triples
+2019-04-10 07:59:20,044 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-10 07:59:20,044 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-10 08:00:50,625 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-10 08:01:32,064 - reverb_intersect3 - [INFO] - Clustering triples
+2019-04-10 08:01:55,966 - reverb_intersect3 - [INFO] - Evaluating
+2019-04-10 08:01:56,400 - reverb_intersect3 - [INFO] - Macro Precision: 0.7628, Macro Recall: 0.8529, Macro F1: 0.8053
+
+2019-04-10 08:01:56,401 - reverb_intersect3 - [INFO] - Micro Precision: 0.8429, Micro Recall: 0.9247, Micro F1: 0.8819
+
+2019-04-10 08:01:56,401 - reverb_intersect3 - [INFO] - Pair Precision: 0.806, Pair Recall: 0.9123, Pair F1: 0.8559
+
+2019-04-10 08:01:56,402 - reverb_intersect3 - [INFO] - CESI: #Clusters: 6285, #Singletons 2657
+
+2019-04-10 08:01:56,403 - reverb_intersect3 - [INFO] - Gold: #Clusters: 7690, #Singletons 3808
+
+2019-04-10 08:01:56,475 - reverb_intersect3 - [INFO] - End
+
+

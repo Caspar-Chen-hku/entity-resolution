@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+bert/
+glove/
+
+reconstructed/src/embedding/bert/
+reconstructed/src/embedding/glove/

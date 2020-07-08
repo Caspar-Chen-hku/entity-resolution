@@ -1,0 +1,8 @@
+2019-05-07 08:17:55,082 - test - [INFO] - Running test
+2019-05-07 08:17:55,082 - test - [INFO] - Parameters:
+2019-05-07 08:17:55,082 - test - [INFO] - 	 dataset: reverb45k
+2019-05-07 08:17:55,082 - test - [INFO] - 	 level 1 threshold: 0.6239
+2019-05-07 08:17:55,082 - test - [INFO] - 	 level 2 threshold: 0.3239
+2019-05-07 08:17:55,082 - test - [INFO] - Reading dataset reverb45k
+2019-05-07 08:17:55,083 - test - [INFO] - 	 Read from raw reverb45k file
+2019-05-07 08:18:18,021 - test - [INFO] - 	 Number of triples: 35797

@@ -1,0 +1,7 @@
+georgewbush: ['georgewbush', 'georgebush']
+indiana: ['india', 'indiana']
+democracy: ['democrat', 'democracy']
+be: ['be', 'pm']
+malaysian: ['malaysia', 'malaysian']
+germany: ['german', 'germany']
+fallof: ['fall', 'fallof']

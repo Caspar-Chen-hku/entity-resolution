@@ -1,0 +1,29 @@
+2019-04-09 11:17:35,575 - test_glove - [INFO] - Running test_glove
+2019-04-09 11:17:35,576 - test_glove - [INFO] - Parameters:
+2019-04-09 11:17:35,576 - test_glove - [INFO] - 	 dataset: reverb45k
+2019-04-09 11:17:35,576 - test_glove - [INFO] - 	 level 1 threshold: 0.6239
+2019-04-09 11:17:35,576 - test_glove - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-09 11:17:35,576 - test_glove - [INFO] - Reading dataset reverb45k
+2019-04-09 11:17:35,576 - test_glove - [INFO] - 	 Read from raw reverb45k file
+2019-04-09 11:17:58,920 - test_glove - [INFO] - 	 Number of triples: 35797
+2019-04-09 11:17:59,027 - test_glove - [INFO] - 	 Printing ground truth
+2019-04-09 11:17:59,102 - test_glove - [INFO] - Cleaning data
+2019-04-09 11:17:59,357 - test_glove - [INFO] - Embedding triples
+2019-04-09 11:17:59,357 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-09 11:17:59,358 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-09 11:19:19,535 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-09 11:19:56,106 - test_glove - [INFO] - Clustering triples
+2019-04-09 11:20:14,374 - test_glove - [INFO] - Evaluating
+2019-04-09 11:20:15,128 - test_glove - [INFO] - Macro Precision: 0.5957, Macro Recall: 0.5526, Macro F1: 0.5733
+
+2019-04-09 11:20:15,128 - test_glove - [INFO] - Micro Precision: 0.6868, Micro Recall: 0.8665, Micro F1: 0.7663
+
+2019-04-09 11:20:15,128 - test_glove - [INFO] - Pair Precision: 0.5323, Pair Recall: 0.8691, Pair F1: 0.6602
+
+2019-04-09 11:20:15,129 - test_glove - [INFO] - CESI: #Clusters: 4324, #Singletons 780
+
+2019-04-09 11:20:15,130 - test_glove - [INFO] - Gold: #Clusters: 6039, #Singletons 187
+
+2019-04-09 11:20:15,210 - test_glove - [INFO] - End
+
+

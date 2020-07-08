@@ -1,0 +1,29 @@
+2019-04-09 10:12:03,828 - reverb_wiki_all - [INFO] - Running reverb_wiki_all
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - Parameters:
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - 	 dataset: reverb45k
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - 	 level 1 threshold: 0.4239
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - Reading dataset reverb45k
+2019-04-09 10:12:03,829 - reverb_wiki_all - [INFO] - 	 Read from raw reverb45k file
+2019-04-09 10:12:29,687 - reverb_wiki_all - [INFO] - 	 Number of triples: 35797
+2019-04-09 10:12:29,785 - reverb_wiki_all - [INFO] - 	 Printing ground truth
+2019-04-09 10:12:29,848 - reverb_wiki_all - [INFO] - Cleaning data
+2019-04-09 10:12:30,121 - reverb_wiki_all - [INFO] - Embedding triples
+2019-04-09 10:12:30,121 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-09 10:12:30,122 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-09 10:13:52,422 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-09 10:14:29,930 - reverb_wiki_all - [INFO] - Clustering triples
+2019-04-09 10:14:50,208 - reverb_wiki_all - [INFO] - Evaluating
+2019-04-09 10:14:50,651 - reverb_wiki_all - [INFO] - Macro Precision: 0.81, Macro Recall: 0.8367, Macro F1: 0.8231
+
+2019-04-09 10:14:50,652 - reverb_wiki_all - [INFO] - Micro Precision: 0.9028, Micro Recall: 0.9164, Micro F1: 0.9096
+
+2019-04-09 10:14:50,652 - reverb_wiki_all - [INFO] - Pair Precision: 0.9073, Pair Recall: 0.8738, Pair F1: 0.8903
+
+2019-04-09 10:14:50,653 - reverb_wiki_all - [INFO] - CESI: #Clusters: 6506, #Singletons 2791
+
+2019-04-09 10:14:50,655 - reverb_wiki_all - [INFO] - Gold: #Clusters: 6924, #Singletons 3114
+
+2019-04-09 10:14:50,750 - reverb_wiki_all - [INFO] - End
+
+

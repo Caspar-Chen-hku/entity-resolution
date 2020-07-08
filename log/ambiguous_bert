@@ -1,0 +1,11 @@
+2019-04-10 08:52:02,809 - ambiguous_bert - [INFO] - Running ambiguous_bert
+2019-04-10 08:52:02,810 - ambiguous_bert - [INFO] - Parameters:
+2019-04-10 08:52:02,810 - ambiguous_bert - [INFO] - 	 dataset: ambiguous
+2019-04-10 08:52:02,810 - ambiguous_bert - [INFO] - 	 level 1 threshold: 0.6239
+2019-04-10 08:52:02,810 - ambiguous_bert - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-10 08:52:02,810 - ambiguous_bert - [INFO] - Reading dataset ambiguous
+2019-04-10 08:52:21,008 - ambiguous_bert - [INFO] - 	 Number of triples: 29748
+2019-04-10 08:52:21,039 - ambiguous_bert - [INFO] - 	 Printing ground truth
+2019-04-10 08:52:21,081 - ambiguous_bert - [INFO] - Cleaning data
+2019-04-10 08:52:21,091 - ambiguous_bert - [INFO] - Embedding triples
+2019-04-10 08:52:39,661 - ambiguous_bert - [INFO] - Clustering triples

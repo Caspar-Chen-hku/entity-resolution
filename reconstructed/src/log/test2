@@ -1,0 +1,19 @@
+2019-06-26 04:17:38,074 - test2 - [INFO] - Running test2
+2019-06-26 04:17:38,074 - test2 - [INFO] - Reading dataset reverb45k_test
+2019-06-26 04:18:16,657 - test2 - [INFO] - Initializing classes
+2019-06-26 04:18:47,769 - test2 - [INFO] - Level 1 Glove embedding
+2019-06-26 04:18:47,812 - gensim.models.keyedvectors - [INFO] - loading projection weights from embedding/glove/glove.6B.300d_word2vec.txt
+2019-06-26 04:18:47,812 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'embedding/glove/glove.6B.300d_word2vec.txt'}
+2019-06-26 04:20:04,292 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from embedding/glove/glove.6B.300d_word2vec.txt
+2019-06-26 04:41:33,933 - test2 - [INFO] - Level 2 Bert embedding
+2019-06-26 04:41:36,540 - test2 - [INFO] - Evaluating
+2019-06-26 04:41:37,015 - test2 - [INFO] - Macro Precision: 0.8488, Macro Recall: 0.2995, Macro F1: 0.4427
+
+2019-06-26 04:41:37,016 - test2 - [INFO] - Micro Precision: 0.8718, Micro Recall: 0.7861, Micro F1: 0.8267
+
+2019-06-26 04:41:37,016 - test2 - [INFO] - Pair Precision: 0.708, Pair Recall: 0.8067, Pair F1: 0.7541
+
+2019-06-26 04:41:37,017 - test2 - [INFO] - CESI: #Clusters: 8405, #Singletons 3499
+
+2019-06-26 04:41:37,018 - test2 - [INFO] - Gold: #Clusters: 6061, #Singletons 0
+

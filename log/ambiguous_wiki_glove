@@ -1,0 +1,28 @@
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - Running ambiguous_wiki_glove
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - Parameters:
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - 	 dataset: ambiguous
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - 	 level 1 threshold: 0.6239
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - 	 level 2 threshold: 0.3239
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - Reading dataset ambiguous
+2019-04-23 12:00:58,594 - ambiguous_wiki_glove - [INFO] - 	 Read from cesi ambiguous file
+2019-04-23 12:01:11,564 - ambiguous_wiki_glove - [INFO] - 	 Printing ground truth
+2019-04-23 12:01:11,589 - ambiguous_wiki_glove - [INFO] - Cleaning data
+2019-04-23 12:01:11,642 - ambiguous_wiki_glove - [INFO] - Embedding triples
+2019-04-23 12:01:11,643 - gensim.models.keyedvectors - [INFO] - loading projection weights from glove/glove.6B.300d_word2vec.txt
+2019-04-23 12:01:11,643 - smart_open.smart_open_lib - [DEBUG] - {'kw': {}, 'mode': 'rb', 'uri': 'glove/glove.6B.300d_word2vec.txt'}
+2019-04-23 12:02:36,848 - gensim.models.keyedvectors - [INFO] - loaded (400000, 300) matrix from glove/glove.6B.300d_word2vec.txt
+2019-04-23 12:02:57,744 - ambiguous_wiki_glove - [INFO] - Clustering triples
+2019-04-23 12:02:57,774 - ambiguous_wiki_glove - [INFO] - Evaluating
+2019-04-23 12:03:01,160 - ambiguous_wiki_glove - [INFO] - Macro Precision: 0.7821, Macro Recall: 0.871, Macro F1: 0.8241
+
+2019-04-23 12:03:01,160 - ambiguous_wiki_glove - [INFO] - Micro Precision: 0.9458, Micro Recall: 0.9693, Micro F1: 0.9574
+
+2019-04-23 12:03:01,160 - ambiguous_wiki_glove - [INFO] - Pair Precision: 0.9515, Pair Recall: 0.9949, Pair F1: 0.9728
+
+2019-04-23 12:03:01,160 - ambiguous_wiki_glove - [INFO] - CESI: #Clusters: 156, #Singletons 24
+
+2019-04-23 12:03:01,161 - ambiguous_wiki_glove - [INFO] - Gold: #Clusters: 186, #Singletons 35
+
+2019-04-23 12:03:01,181 - ambiguous_wiki_glove - [INFO] - End
+
+
